@@ -73,8 +73,10 @@ p, h2 {
 }
 @media screen and (max-width: 600px){
     .logoIndex {
-        width: 60%;
+        width: 100%;
+    }
+    .parrafoIndex {
+        font-size: 30px;
     }
 
-    height: 100vh;
 }
