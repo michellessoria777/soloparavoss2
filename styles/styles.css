@@ -20,9 +20,12 @@
 }
 
 .parrafoIndex {
-    padding: 20%;
+    padding: 23%;
     font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
     font-size: 30px;
+    background-image:url(../imagenes/23556-negro-con-dorado.jpg);
+    background-size: 100%;
 
 }
 
