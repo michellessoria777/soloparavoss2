@@ -4,6 +4,18 @@
     padding: 0%;
 }
 
+body {
+    background-color: grey;
+}
+
+.contacto {
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+    padding: 2%;
+    border:solid grey;
+}
+
 .btn {
     background-color: black;
     color: aliceblue;
@@ -17,6 +29,7 @@
 .logoIndex {
     border-radius: 100%;
     width: 400px;  
+    margin:13%;
 }
 
 .parrafoIndex {
@@ -78,5 +91,10 @@ p, h2 {
     .parrafoIndex {
         font-size: 30px;
     }
+.contacto {
+    margin: 0%;
+    width: auto;
+    padding: 0%;
+}
 
 }
