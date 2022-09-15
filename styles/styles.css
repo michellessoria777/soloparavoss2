@@ -86,7 +86,8 @@ p, h2 {
 }
 @media screen and (max-width: 600px){
     .logoIndex {
-        width: 100%;
+        width: 70%;
+
     }
     .parrafoIndex {
         font-size: 30px;
@@ -96,5 +97,9 @@ p, h2 {
     width: auto;
     padding: 0%;
 }
+ .logo-prod {
+    width: 200px;
+    margin:0%
+ }
 
 }
