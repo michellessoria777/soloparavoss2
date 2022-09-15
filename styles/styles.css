@@ -28,8 +28,9 @@ body {
 
 .logoIndex {
     border-radius: 100%;
-    width: 400px;  
-    margin:13%;
+    width: 350px;  
+    margin:4%;
+    border: 5px solid black;
 }
 
 .parrafoIndex {
@@ -82,6 +83,7 @@ p, h2 {
 .logo-prod{
     width: 250px;
     border-radius: 100%;
+    border: solid 5px black;
 
 }
 @media screen and (max-width: 600px){
@@ -99,7 +101,9 @@ p, h2 {
 }
  .logo-prod {
     width: 200px;
-    margin:0%
+    margin:0%;
+    border: none;
+
  }
 
 }
