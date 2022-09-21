@@ -1,0 +1,23 @@
+
+.tituloIndex {
+    padding: 2%;
+}
+
+.logoIndex {
+    border-radius: 100%;
+    width: 350px;  
+    margin:4%;
+    border: 5px solid black;
+}
+
+.parrafoIndex {
+    padding: 23%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 30px;
+    background-image:url(../imagenes/23556-negro-con-dorado.jpg);
+    background-size: 100%;
+    &:hover { color: brown; 
+    }
+
+}

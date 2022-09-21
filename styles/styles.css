@@ -1,119 +1,107 @@
-
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
-body {
-    background-color: grey;
-}
-
-.contacto {
-    width: 500px;
-    text-align: center;
-   
-    padding: 2%;
-    border:solid grey;
-}
-
-.btn {
-    background-color: black;
-    color: aliceblue;
-    margin: 1%;
-}
-
 .tituloIndex {
-    padding: 2%;
+  padding: 2%;
 }
 
 .logoIndex {
-    border-radius: 100%;
-    width: 350px;  
-    margin:4%;
-    border: 5px solid black;
+  border-radius: 100%;
+  width: 350px;
+  margin: 4%;
+  border: 5px solid black;
 }
 
 .parrafoIndex {
-    padding: 23%;
-    font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
-    font-size: 30px;
-    background-image:url(../imagenes/23556-negro-con-dorado.jpg);
-    background-size: 100%;
-
+  padding: 23%;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  font-size: 30px;
+  background-image: url(../imagenes/23556-negro-con-dorado.jpg);
+  background-size: 100%;
 }
-
 .parrafoIndex:hover {
-    color: brown;
+  color: brown;
 }
 
 .logoContacto {
-    width: 50px;
-    margin: 1%;
-}
-
-.logoContacto {
-    transition: 1ms;
+  width: 50px;
+  margin: 1%;
 }
 .logoContacto:hover {
-    width: 4%;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+  width: 4%;
 }
 
 .imgGaleria {
-    height: 290px;
-    width: 310px;
-    border-radius: 10%;
-    padding: 2%;
-    transition: 1ms;
+  height: 290px;
+  width: 310px;
+  border-radius: 10%;
+  padding: 2%;
+  transition: 1ms;
 }
-
 .imgGaleria:hover {
-    width: 330px;
-    height: 298px;
-
+  width: 330px;
+  height: 298px;
 }
 
-.logo-prod{
-    width: 250px;
-    border-radius: 100%;
-    border: solid 5px black;
+.logo-prod {
+  width: 250px;
+  border-radius: 100%;
+  border: solid 5px black;
+}
 
+@media screen and (max-width: 500px) {
+  .logoIndex {
+    width: 70%;
+  }
+  .parrafoIndex {
+    font-size: 30px;
+  }
+  .logo-prod {
+    width: 200px;
+    margin: 0%;
+    border: none;
+  }
+  .imgContacto {
+    width: 90%;
+    margin: 5%;
+  }
+}
+ul li {
+  font-size: 20px;
 }
 
 p {
-    font-size: 25px;
+  font-size: 25px;
 }
- span {
-    font-size: 25px;
- }
 
-@media screen and (max-width: 500px){
-    .logoIndex {
-        width: 70%;
+span {
+  font-size: 25px;
+}
 
-    }
-    .parrafoIndex {
-        font-size: 30px;
-    }
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: grey;
+}
+
+.btn {
+  background-color: black;
+  color: aliceblue;
+  margin: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
+  font-size: 20px;
+}
+
 .contacto {
-    margin: 0%;
-    width: auto;
-    padding: 0%;
-}
- .logo-prod {
-    width: 200px;
-    margin:0%;
-    border: none;
-
- }
- .imgContacto {
-    width: 90%;
-    margin: 5%;
-}
-
-}
+  text-align: center;
+  padding: 2%;
+  border: solid grey;
+}/*# sourceMappingURL=styles.css.map */
