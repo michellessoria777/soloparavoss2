@@ -12,10 +12,13 @@
 
 .h3Index {
     font-size: 30px;
-    text-align: end;
-    margin-right: 20%;
-    margin-bottom: 20%;
-    color: black;
+    text-align: center;
+    color: rgb(43, 46, 43);
+    background-color: grey;
+    &:hover {
+        background-color: rgb(86, 141, 141);
+    }
+   
 }
 
 .nav-link {
