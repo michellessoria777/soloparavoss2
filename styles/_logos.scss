@@ -15,7 +15,9 @@
 
     &:hover{    
         width: 330px;
-        height: 298px;}
+        height: 298px;
+        border: solid 1px white;
+    }
 }
 
 
@@ -25,8 +27,7 @@
     border: solid 5px $colorN; 
 }
 
-.imgContacto {
-  height: 400px;
-  width: 570px;
-  border: solid 1px white;
+.imgCar {
+    width: 550px;
+    height: 420px;
 }

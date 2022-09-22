@@ -21,6 +21,14 @@
   color: brown;
 }
 
+.nav-link {
+  margin: 10px;
+  font-size: 20px;
+}
+.nav-link:hover {
+  background-color: gray;
+}
+
 .logoContacto {
   width: 50px;
   margin: 1%;
@@ -39,6 +47,7 @@
 .imgGaleria:hover {
   width: 330px;
   height: 298px;
+  border: solid 1px white;
 }
 
 .logo-prod {
@@ -47,10 +56,9 @@
   border: solid 5px black;
 }
 
-.imgContacto {
-  height: 400px;
-  width: 570px;
-  border: solid 1px white;
+.imgCar {
+  width: 550px;
+  height: 420px;
 }
 
 @media screen and (max-width: 500px) {
@@ -65,14 +73,9 @@
     margin: 0%;
     border: none;
   }
-  .imgContacto {
-    width: 90%;
-    margin: 5%;
-  }
-  .imgContacto {
-    height: 200px;
-    width: 300px;
-    border: solid 1px white;
+  .imgContactoo {
+    width: 380px;
+    margin-top: 1%;
   }
 }
 ul li {
