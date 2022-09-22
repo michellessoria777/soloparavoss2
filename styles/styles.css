@@ -74,8 +74,12 @@
     border: none;
   }
   .imgContactoo {
-    width: 380px;
+    width: 350px;
     margin-top: 1%;
+  }
+  .imgCar {
+    width: 250px;
+    height: 220px;
   }
 }
 ul li {
