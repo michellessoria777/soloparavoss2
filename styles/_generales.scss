@@ -14,7 +14,6 @@ body {
 }
 a {
     text-decoration: none;
-    color: white;
     &:hover {
         color: $colorN;
         font-size: 20px;
@@ -22,4 +21,10 @@ a {
     }
 }
 
+.pieDePag {
+    display: grid;
+    justify-content: start;
+    font-size: 20px;
+
+}
 

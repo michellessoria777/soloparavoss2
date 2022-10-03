@@ -1,5 +1,14 @@
-.tituloIndex {
+.imgGaleria4, .imgGaleria3, .imgGaleria2, .imgGaleria1 {
+  height: 290px;
+  width: 310px;
+  border-radius: 10%;
   padding: 2%;
+  transition: 1ms;
+}
+
+.tituloIndex {
+  padding: 5px;
+  color: white;
 }
 
 .logoIndex {
@@ -12,7 +21,6 @@
 .h3Index {
   font-size: 30px;
   text-align: center;
-  color: rgb(43, 46, 43);
   background-color: grey;
 }
 .h3Index:hover {
@@ -28,30 +36,38 @@
 }
 
 .fondoIndex {
-  background-image: url(../imagenes/fondo\ Colores.jpg);
+  background-image: url(../imagenes/fondo-Colores.webp);
   background-size: 100%;
   height: 95vh;
 }
 
 .logoContacto {
-  width: 50px;
-  margin: 1%;
-}
-.logoContacto:hover {
-  width: 4%;
+  width: 30px;
+  margin: 5px;
 }
 
-.imgGaleria {
-  height: 290px;
-  width: 310px;
-  border-radius: 10%;
-  padding: 2%;
-  transition: 1ms;
-}
-.imgGaleria:hover {
+.imgGaleria1:hover {
   width: 330px;
   height: 298px;
   border: solid 1px white;
+}
+
+.imgGaleria2:hover {
+  width: 330px;
+  height: 298px;
+  border: solid 1px red;
+}
+
+.imgGaleria3:hover {
+  width: 330px;
+  height: 298px;
+  border: solid 1px violet;
+}
+
+.imgGaleria4:hover {
+  width: 330px;
+  height: 298px;
+  border: solid 1px yellow;
 }
 
 .logo-prod {
@@ -86,7 +102,7 @@
     height: 220px;
   }
   .fondoIndex {
-    background-image: url(../imagenes/black-wallpapers-for-smartphone-68-700x1244.jpg);
+    background-image: url(../imagenes/black-wallpapers-for-smartphone-68-700x1244.bmp);
     background-size: 100%;
     height: 85vh;
   }
@@ -126,10 +142,15 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
 }
 a:hover {
   color: black;
+  font-size: 20px;
+}
+
+.pieDePag {
+  display: grid;
+  justify-content: start;
   font-size: 20px;
 }
 

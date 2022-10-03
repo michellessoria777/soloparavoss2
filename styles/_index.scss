@@ -1,6 +1,7 @@
 
 .tituloIndex {
-    padding: 2%;
+    padding: 5px;
+    color: white;
 }
 
 .logoIndex {
@@ -13,7 +14,7 @@
 .h3Index {
     font-size: 30px;
     text-align: center;
-    color: rgb(43, 46, 43);
+    color: map-get($color, $colorN);
     background-color: grey;
     &:hover {
         background-color: rgb(86, 141, 141);
@@ -33,7 +34,7 @@
 }
 
 .fondoIndex{
-    background-image: url(../imagenes/fondo\ Colores.jpg);
+    background-image:url(../imagenes/fondo-Colores.webp);
     background-size: 100%;
     height:95vh;
     
